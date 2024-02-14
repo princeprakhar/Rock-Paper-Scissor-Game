@@ -28,6 +28,9 @@ This is a simple Rock-Paper-Scissor game implemented using HTML, CSS, and JavaSc
 - Refreshing the page will reset the score.
 - Enjoy playing Rock-Paper-Scissor! If you have any questions or suggestions, feel free to reach out.
 
+## Deployment
+- The project deployed on vercel currently at ```https://rock-paper-scissor-game-pp0olyi15-prakhar-deeps-projects.vercel.app```
+
 ## Contributions
 Contributions to this project are welcome. If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
 ## License
