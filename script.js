@@ -23,9 +23,7 @@ function onClickRock(){
         result="You Win";
         store.win++;
     }
-    resu();
-//     alert(`You ${result}
-// ${store}`);
+    resultForGame();
 }
 
 function onClickPaper(){
@@ -44,7 +42,7 @@ function onClickPaper(){
         result="You Lose";
         store.lose++;
     }
-    resu();
+    resultForGame();
 }
 function onClickScissor(){
     let random= Math.random();
@@ -62,9 +60,11 @@ function onClickScissor(){
         result="Game Tie";
         store.tie++;
     }
-    resu();
+    resultForGame();
 }
-function resu(){
-    result=result+", Total  Win: "+ store.win+" Lose: "+store.lose+" Tie: "+store.tie
-    document.getElementById('result').innerHTML = result;
+function resultForGame(){
+   var resultContainer=document.getElementById("result");
+    var res=`${result}!<br>Total  Win: ${store.win} <br> Total Lose ${store.lose} <br> Total Tie ${store.tie}`;
+    resultContainer.innerHTML=res;
+
 }
