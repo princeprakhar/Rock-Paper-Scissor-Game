@@ -64,7 +64,7 @@ function onClickScissor(){
 }
 function resultForGame(){
    var resultContainer=document.getElementById("result");
-    var res=`${result}!<br>Total  Win: ${store.win} <br> Total Lose ${store.lose} <br> Total Tie ${store.tie}`;
+    var res=`${result}!<br>Total  Win: ${store.win} <br> Total Lose: ${store.lose} <br> Total Tie: ${store.tie}`;
     resultContainer.innerHTML=res;
 
 }
